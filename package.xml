@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+	<!--name tag: shows publically via ros-->
+	<!-- -->
+	<name>racecar</name>
+	<version>0.0.0</version>
+	<description>package.xml for racecar</description>
+	
+	<maintainer email="kevin@todo.todo">kevin</maintainer>
+
+	<license>TODO</license>
+
+	<!-- buildtool_depend tells you how project is built-->
+	<!-- catkin creates binaries from source files -->
+	<buildtool_depend>catkin</buildtool_depend>
+	<!-- build_depend: what libraries are we dependent on?-->
+	<build_depend>roscpp</build_depend>
+	<build_depend>std_msgs</build_depend>
+	<run_depend>std_msgs</run_depend>
+	<run_depend>roscpp</run_depend>
+	
+	<export>
+	</export>
+</package>
